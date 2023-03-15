@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #141d2f;
+    color: #fff;
+    // width: 100vw;
+    // max-width: 100%;
+    // overflow-x: hidden;
+    position: relative;
+    font-family: Poppins;
+    scroll-behavior: smooth;
+}
