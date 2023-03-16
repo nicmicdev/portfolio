@@ -2,6 +2,7 @@
 //    height: 100vh;       //später rausnehmen --> only for development
    position: relative;
    margin-bottom: -80px;    // to move section divider img up 
+   padding-top: 100px;
 }
 
 .about-me-content {
@@ -27,12 +28,12 @@
     z-index: 2;
     background-color: #141d2f;
     position: absolute;
-    top: 77px;
+    top: 166px;
 }
 
 .shadow-me {
     position: absolute;
-    top: 0;
+    top: 50px;
     z-index: -1;
     height: 650px;
 }
