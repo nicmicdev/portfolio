@@ -1,6 +1,37 @@
 .about-me-container {
-   padding-left: 100px;
-   padding-right: 100px;
-   height: 100vh;
+//    height: 100vh;       //später rausnehmen only for development
+   position: relative;
+}
+
+.about-me-content {
+    display: flex;
+}
+
+.about-me-text {
+    width: 50%;
+}
+
+.about-me-pic {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.img-me {
+    height: 420px;
+    border-radius: 100%;
+    border: 2px solid #00BEE8;
+    z-index: 2;
+    background-color: #141d2f;
+    position: absolute;
+    top: 77px;
+}
+
+.shadow-me {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 650px;
 }
 
