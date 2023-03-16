@@ -1,0 +1,39 @@
+header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1px;
+}
+
+.name {
+    font-size: 44px;
+    font-weight: bold;
+    padding-left: 50px;    // universal padding for header didnt work (see first statement under .links for padding right)
+}
+
+.links {
+    padding-right: 50px ;
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        transition: color 225ms ease-in-out;
+
+        &:hover {
+            color: #00BEE8;
+        }
+    }
+}
+
+.name-link {
+    text-decoration: none;
+    color: white;
+}
