@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
 
@@ -69,7 +70,7 @@
 
 .bottom-section {
     position: absolute;
-    bottom: 12px;
+    bottom: 22px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -88,7 +89,7 @@
 
 .scroll-down-link {
 
-    margin-right: 37px;
+    margin-right: 100px;
 
     &:hover {
         transform: translateY(1.3)

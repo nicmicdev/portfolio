@@ -7,16 +7,18 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 1px;
+    background-color: #141d2f;
+    z-index: 3;
 }
 
 .name {
     font-size: 44px;
     font-weight: bold;
-    padding-left: 50px;    // universal padding for header didnt work (see first statement under .links for padding right)
+    padding-left: 100px;    // universal padding for header didnt work (see first statement under .links for padding right)
 }
 
 .links {
-    padding-right: 50px ;
+    padding-right: 100px ;
     width: 350px;
     display: flex;
     justify-content: space-evenly;
