@@ -1,6 +1,7 @@
 .about-me-container {
-//    height: 100vh;       //später rausnehmen only for development
+//    height: 100vh;       //später rausnehmen --> only for development
    position: relative;
+   margin-bottom: -80px;    // to move section divider img up 
 }
 
 .about-me-content {
@@ -9,6 +10,7 @@
 
 .about-me-text {
     width: 50%;
+    font-size: 17px;
 }
 
 .about-me-pic {
@@ -33,5 +35,20 @@
     top: 0;
     z-index: -1;
     height: 650px;
+}
+
+.icon-container {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 50px;
+    }
+}
+
+.p-width {
+    width: 75%;
 }
 
