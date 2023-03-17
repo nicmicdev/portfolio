@@ -1,0 +1,18 @@
+.skills-container {
+    position: relative;
+}
+
+.skills-heading {
+    display: flex;
+    align-items: center;
+    h2 {
+        position: absolute;
+        right: 100px;
+        margin-bottom: 0;
+    }
+
+    img {
+        position: absolute;
+        right: 0;
+    }
+}
