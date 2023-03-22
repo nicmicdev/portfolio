@@ -37,26 +37,6 @@
     margin: 0;
 }
 
-.btn-contact-start {
-    width: 165px;
-    height: 58px;
-    padding: 15px 30px;
-    color: teal;
-    border-radius: 10px;
-    border: none;
-    background-color: #00BEE8;
-    font-size: 18px;
-    cursor: pointer;
-    margin-top: 32px;
-    transition: all 225ms ease-in-out;
-
-    &:hover {
-        background-color: #4B47FF;
-        color: white;
-        // transform: scale(1.05);
-    }
-}
-
 .shadow-start-left{
     position: absolute;
     left: 0;

@@ -1,19 +1,54 @@
 .skills-container {
     position: relative;
     padding-top: 140px;
+    display: flex;
+}
+
+.skills-icons-container {
+    width: 60%;
+}
+
+.skills-text-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
 }
 
 .skills-heading {
     display: flex;
     align-items: center;
     h2 {
-        position: absolute;
-        right: 100px;
+        // position: absolute;
+        // right: 100px;
         margin-bottom: 0;
     }
 
     img {
         position: absolute;
         right: 0;
+    }
+}
+
+.skills-subtext {
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.icn-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+
+    img {
+        padding-bottom: 12px;
     }
 }
