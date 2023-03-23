@@ -2,14 +2,15 @@
     position: relative;
     padding-top: 140px;
     display: flex;
+    justify-content: space-between;
 }
 
 .skills-icons-container {
-    width: 60%;
+    width: 50%;
 }
 
 .skills-text-container {
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
 }
@@ -43,13 +44,18 @@
 }
 
 .skill {
-    width: 125px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 18px;
+    padding-bottom: 50px;
 
     img {
         padding-bottom: 12px;
+    }
+
+    span {
+        text-align: center;
     }
 }
