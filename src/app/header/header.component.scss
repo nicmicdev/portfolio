@@ -28,9 +28,11 @@ header {
         color: white;
         font-size: 22px;
         transition: color 225ms ease-in-out;
+        // border-bottom: 1px solid transparent;   // --> uncommment for links on hover undelined in purple
 
         &:hover {
             color: #00BEE8;
+            // border-bottom: 1px solid #4B47FF;
         }
     }
 }

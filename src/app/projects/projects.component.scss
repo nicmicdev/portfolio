@@ -1,0 +1,22 @@
+.projects-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+}
+
+.projects-heading {
+    display: flex;
+    align-items: center;
+
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    img {
+        position: absolute;
+        left: -32px;
+    }
+}
+
