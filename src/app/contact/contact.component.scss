@@ -1,0 +1,42 @@
+.contact-container {
+    padding-top: 100px;
+    position: relative;
+}
+
+.contact-heading {
+    display: flex;
+    align-items: center;
+
+    h2 {
+        margin-bottom: 0;
+        position: absolute;
+        right: 100px;
+    }
+
+    img {
+        position: absolute;
+        right: -17px;
+    }
+}
+
+.contact-content {
+    display: flex;
+    padding-top: 150px;
+}
+
+.contact-text {
+    width: 35%;
+}
+
+.contact-form {
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+}
