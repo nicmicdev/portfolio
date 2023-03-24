@@ -2,6 +2,7 @@
     padding-top: 100px;
     display: flex;
     flex-direction: column;
+    position: relative;
     // justify-content: center;
 }
 
@@ -24,6 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .project-right-container {
@@ -34,7 +36,7 @@
 }
 
 .project-img {
-    height: 500px;
+    height: 300px;
     padding-top: 32px;
 }
 
@@ -95,4 +97,22 @@
         background-color: #00bee8;
     }
 
+}
+
+.flip-order {
+    flex-direction: row-reverse;
+}
+
+
+.shadow-p-left {
+    position: absolute;
+    left: -464px;
+    bottom: 100px;
+    z-index: -1;
+}
+
+.shadow-b-right {
+    position: absolute;
+    right: -375px;
+    z-index: -1;
 }
