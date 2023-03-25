@@ -15,10 +15,10 @@
         </div>
 
         <div class="contact-form">
-            <form action="" >
-                <input type="text" placeholder="Your name"> 
-                <input type="email" placeholder="Your email">
-                <textarea name="" placeholder="Your message" id="" cols="30" rows="10"></textarea>
+            <form action="" method="POST" return false>
+                <input type="text" placeholder="Your name" required> 
+                <input type="email" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" id="" cols="30" rows="10" required></textarea>
 
                 <button class="form-btn">Send message</button>
             </form>
