@@ -83,6 +83,7 @@
 
 .icons-start {
     height: 32px;
+    transition: all 175ms ease-in-out;
 
     &:hover {
         transform: scale(1.1);

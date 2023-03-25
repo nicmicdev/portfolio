@@ -1,6 +1,7 @@
 .contact-container {
     padding-top: 100px;
     position: relative;
+    overflow-y: hidden;
 }
 
 .contact-heading {
@@ -106,6 +107,7 @@
     transition: all 225ms ease-in-out;
     font-weight: 100;
     margin-top: 32px;
+    margin-bottom: 100px;
 
     &:hover {
         background-color: #4B47FF;
@@ -121,4 +123,11 @@
     p {
         font-size: 18px;
     }
+}
+
+.shadow-b {
+    position: absolute;
+    left: -365px;
+    bottom: -187px;
+    z-index: -1;
 }

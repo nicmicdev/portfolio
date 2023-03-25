@@ -1,0 +1,43 @@
+.footer-container {
+    min-height: 100px;
+    border-top: 1px solid #4B47FF;  // other color #00bee8
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-footer {
+    height: 32px;
+    transition: all 175ms ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+    
+}
+
+.pd-r-x {
+    padding-right: 16px;
+}
+
+.name-imprint {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        font-size: 44px;
+        font-weight: 700;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        transition: all 225ms ease-in-out;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
