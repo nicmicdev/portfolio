@@ -25,7 +25,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
  function newTitle() {
   setTimeout(() => {
     document.title = 'Come back :)'; 
-  }, 7000);
+  }, 3000);
    
  }
 
