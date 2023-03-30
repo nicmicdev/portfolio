@@ -9,6 +9,7 @@
 
 .about-me-content {
     display: flex;
+    align-items: center;
 }
 
 .about-me-text {
@@ -21,6 +22,7 @@
     width: 50%;
     display: flex;
     justify-content: center;
+    position: relative;
    
 }
 
@@ -30,13 +32,13 @@
     // border: 2px solid #00BEE8;
     z-index: 2;
     background-color: #141d2f;
-    position: absolute;
-    top: 250px;
+    // position: absolute;
+    // top: 250px;
 }
 
 .shadow-me {
     position: absolute;
-    top: 140px;
+    top: -111px;
     z-index: -1;
     height: 650px;
 }
