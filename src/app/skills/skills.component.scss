@@ -45,9 +45,17 @@
     align-items: center;
     font-size: 18px;
     padding-bottom: 50px;
+    opacity: 0.75;
+    transition: all 225ms ease-in-out;
+
+    &:hover {
+        opacity: 1;
+        transform: scale(1.02);
+    }
 
     img {
         padding-bottom: 12px;
+        height: 60px;
     }
 
     span {

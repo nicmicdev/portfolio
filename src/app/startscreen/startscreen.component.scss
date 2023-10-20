@@ -90,3 +90,26 @@
     }
     
 }
+
+#claim {
+    font-size: 22px;
+    margin-top: 77px;
+}
+
+//RESPONSIVE
+@media (max-width:1300px) {
+    .frontend-dev {
+        color: rgb(35, 165, 197);
+    }
+
+    .shadow-start-left {
+        position: absolute;
+        left: -200px;
+    }
+
+    .shadow-start-right {
+        position: absolute;
+        right: -350px;
+    }
+
+}

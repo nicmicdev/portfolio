@@ -3,10 +3,17 @@
     <div class="projects-heading">
         <h2 class="section-heading">Portfolio</h2>
         <img src="assets/img/line-middle-purple.png" alt="">
-        
     </div>
+
+
     
-    <span class="subtext" style="padding-bottom: 70px;">Here you can see a sample of my work - please feel free to try out my projects.</span>
+    <span class="subtext" style="padding-bottom: 70px;">Here you can see a sample of my work - please feel free to try out my projects. You can filter between my <i><b>personal projects</b></i> and <i><b>client work</b></i>. </span>
+
+    <!-- TAB SELECTION -->
+    <div id="tab-selection">
+        <input onclick="showProjects()" id="toggle-projects" class="tab-select-switch-left" type="button" value="Projects"/>
+        <input onclick="showClient()" id="toggle-clients" class="tab-select-switch-right" type="button" value="Client Work"/>
+    </div>
 
     <div class="project">
         <img class="project-img" src="assets/img/join.png" alt="">
@@ -66,7 +73,7 @@
 
         <div class="project-right-container">
             <h3 class="p-heading">Portfolio</h3>
-            <span class="p-sub-heading">Angular | HTML | CSS</span>
+            <span class="p-sub-heading">Angular | Typescript | CSS | HTML</span>
             <p class="p-description">My personal portfolio website to showcase my work is built with the Angular framework.</p>
 
             <div class="project-btns">
@@ -78,8 +85,26 @@
 
     </div>
 
+
+    <div class="project">
+        <img class="project-img" src="assets/img/irecu.png" alt="">
+
+        <div class="project-right-container">
+            <h3 class="p-heading">iRecu ®</h3>
+            <span class="p-sub-heading">Wordpress | CSS</span>
+            <p class="p-description">Custom landingpage for Kueppers Solutions based on clients wishes. Feel free to have a look at my work.</p>
+
+            <div class="project-btns">
+                <a href="https://i-recu.de" target="_blank"><button class="live-test-btn">My work</button></a>
+                <a href="https://kueppers-solutions.de" target="_blank"><button class="github-btn">Company</button></a>
+                <a><button class="btn-tag">Client</button></a>
+            </div>
+            
+        </div>
+
+    </div>
+
     <img class="shadow-p-left" src="assets/img/shadow-p-2.png" alt="">
     <img class="shadow-b-right" src="assets/img/shadow-b-2.png" alt="">
-
 
 </div>

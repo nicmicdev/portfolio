@@ -15,13 +15,20 @@
 
         </div>
 
-        <div class="contact-form" data-aos="fade-left" data-aos-duration="1000">
-            <form action="" method="POST" return false>
-                <input type="text" placeholder="Your name" required>
-                <input type="email" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" id="" cols="30" rows="10" required></textarea>
+        <div class="contact-form">
+            <form (submit)="sendMail()" #myForm ngNativeValidate>
+                <input name="name" type="text" placeholder="Your name" required #nameField>
+                <input name="mail" type="email" placeholder="Your email" required #mailField>
+                <textarea name="message" placeholder="Your message" id="" cols="30" rows="10" required #messageField></textarea>
+                
+                <span class="msg-success hidden" id="msgSuccess">Message was sent</span>
 
-                <button class="form-btn">Send message</button>
+                <div id="checkbox-div" class="checkbox-wrapper">
+                    <input id="dsgvo-check" type="checkbox" value="accept-dsgvo" required #dsgvoCheck>
+                    <label for="dsgvo-check">I accept the <a href="#" target="_blank">data protection declaration</a> (DSGVO).</label>
+                </div>
+                
+                <button type="submit" class="form-btn" #formBtn>Send message</button>
             </form>
 
         </div>
