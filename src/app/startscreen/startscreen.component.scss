@@ -32,7 +32,7 @@
 
 
 .frontend-dev {
-    color: #4B47FF;
+    color: var(--color-primary);
     font-size: 58px;
     margin: 0;
 }
@@ -69,7 +69,7 @@
 
 .scroll-down-link {
 
-    margin-right: 100px;
+    margin-right: 5%;
 
     &:hover {
         transform: translateY(1.3)
@@ -98,9 +98,9 @@
 
 //RESPONSIVE
 @media (max-width:1300px) {
-    .frontend-dev {
-        color: rgb(35, 165, 197);
-    }
+    // .frontend-dev {
+    //     color: rgb(35, 165, 197);
+    // }
 
     .shadow-start-left {
         position: absolute;
@@ -112,4 +112,31 @@
         right: -350px;
     }
 
+}
+
+@media (max-width:850px) {
+    .niclas-michel {
+        font-size: 3rem;
+        margin-bottom: -21px;
+    }
+
+    .frontend-dev{
+        font-size: 2rem;
+    }
+
+    .vertical-container {
+        margin-right: -45px;
+    }
+
+    .i-am {
+        font-size: 2.5rem;
+    }
+
+    .shadow-start-right {
+        right: -420px;
+    }
+
+    .shadow-start-left {
+        left: -333px;
+    }
 }

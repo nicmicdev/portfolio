@@ -15,6 +15,11 @@ body {
     transition: all 225ms ease-in-out;
 }
 
+:root {
+--color-primary: #4B47FF;
+--color-secondary: #00BEE8;
+}
+
 .section-heading {
     font-size: 90px;
     font-weight: 700;
@@ -37,14 +42,14 @@ app-about-me {
     //color: teal;
     border-radius: 10px;
     border: none;
-    background-color: #00BEE8;
+    background-color: var(--color-secondary);
     font-size: 18px;
     cursor: pointer;
     margin-top: 32px;
     transition: all 225ms ease-in-out;
 
     &:hover {
-        background-color: #4B47FF;
+        background-color: var(--color-primary);
         color: white;
         // transform: scale(1.05);
     }
@@ -73,7 +78,7 @@ app-about-me {
    
 //   /* Handle */
 //   ::-webkit-scrollbar-thumb {
-//     background: #00BEE8;
+//     background: var(--color-secondary);
 //     border-radius: 22px;
 //   }
   

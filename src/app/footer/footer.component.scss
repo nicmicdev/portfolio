@@ -1,6 +1,6 @@
 .footer-container {
     min-height: 100px;
-    border-top: 1px solid #4B47FF;  // other color #00bee8
+    border-top: 1px solid var(--color-primary);  // other color var(--color-secondary)
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;

@@ -42,14 +42,14 @@
 
 .p-heading {
     font-size: 32px;
-    color: #4b47ff;
+    color: var(--color-primary);
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .p-sub-heading {
     font-size: 23px;
-    color: #00bee8;
+    color: var(--color-secondary);
 }
 
 .p-description {
@@ -68,7 +68,7 @@
     height: 50px;
     border-radius: 10px;
     border: none;
-    background-color: #4B47FF;
+    background-color: var(--color-primary);
     color: white;
     font-size: 18px;
     padding: 15px 30px;
@@ -76,7 +76,7 @@
     font-weight: 100;
 
     &:hover {
-        background-color: #00bee8;
+        background-color: var(--color-secondary);
     }
 }
 
@@ -86,7 +86,7 @@
     border-radius: 10px;
     border: none;
     background-color: transparent;
-    border: 1px solid #00bee8;
+    border: 1px solid var(--color-secondary);
     color: white;
     font-size: 18px;
     padding: 15px 30px;
@@ -94,7 +94,7 @@
     font-weight: 100;
 
     &:hover {
-        background-color: #00bee8;
+        background-color: var(--color-secondary);
     }
 
 }
@@ -129,7 +129,7 @@
     border-radius: 10px;
     border: none;
     background-color: transparent;
-    border: 1px solid #00bee8;
+    border: 1px solid var(--color-secondary);
     color: white;
     font-size: 18px;
     padding: 15px 30px;
@@ -139,8 +139,8 @@
     border-bottom-right-radius:0;
     
     &:hover {
-        background-color: #4B47FF;
-        border: 1px solid #4B47FF;
+        background-color: var(--color-primary);
+        border: 1px solid var(--color-primary);
 
     }
 }
@@ -150,7 +150,7 @@
     border-radius: 10px;
     border: none;
     background-color: transparent;
-    border: 1px solid #00bee8;
+    border: 1px solid var(--color-secondary);
     color: white;
     font-size: 18px;
     padding: 15px 30px;
@@ -160,13 +160,13 @@
     border-bottom-left-radius:0;
     
     &:hover {
-        background-color: #4B47FF;
-        border: 1px solid #4B47FF;
+        background-color: var(--color-primary);
+        border: 1px solid var(--color-primary);
     }
 }
 
 .active {
-    background-color: #00bee8;
+    background-color: var(--color-secondary);
 }
 
 .btn-tag { 
