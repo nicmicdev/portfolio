@@ -63,6 +63,10 @@
 
 }
 
+#claim {
+    color: grey;
+}
+
 .pd-r-x {
     padding-right: 16px;
 }
@@ -114,6 +118,19 @@
 
 }
 
+.cta-subtext-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.iam-img {
+    display: none;
+    height: 111px;
+}
+
 @media (max-width:850px) {
     .niclas-michel {
         font-size: 3rem;
@@ -139,4 +156,64 @@
     .shadow-start-left {
         left: -333px;
     }
+
+    .cta-subtext-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
+
+
+@media (max-width:550px) {
+    .btn-contact {
+        margin-top: 187px;
+    }
+
+    .shadow-start-right {
+        right: -525px;
+    }
+}
+
+@media (max-width:450px) {
+    .i-am {
+        display: none;
+    }
+
+    .niclas-michel {
+        display: none;
+    }
+
+    .frontend-dev {
+        display: none;
+    }
+
+    .iam-img {
+        display: block;
+    }
+
+    .shadow-start-left, .shadow-start-right {
+        display: none;
+    }
+    
+    .i-am-container {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        padding-left: 50px;
+    }
+
+    #claim {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 375px) {
+    .iam-img {
+        height: 85px;
+    }
+
+    #claim {
+        font-size: 16px;
+    }
+}
+

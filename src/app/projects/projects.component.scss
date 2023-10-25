@@ -137,6 +137,7 @@
     font-weight: 100;
     border-top-right-radius: 0;
     border-bottom-right-radius:0;
+    cursor: pointer;
     
     &:hover {
         background-color: var(--color-primary);
@@ -158,6 +159,7 @@
     font-weight: 100;
     border-top-left-radius: 0;
     border-bottom-left-radius:0;
+    cursor: pointer;
     
     &:hover {
         background-color: var(--color-primary);

@@ -62,3 +62,18 @@
         text-align: center;
     }
 }
+
+@media (max-width: 1080px) {
+    .section-heading {
+        font-size: 4.5rem;
+    }
+
+    .icn-row {
+        padding-top: 550px;
+        width: 500px;
+    }
+
+    .skill {
+        width: auto;
+    }
+}

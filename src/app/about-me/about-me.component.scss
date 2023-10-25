@@ -62,3 +62,17 @@
     top: 650px;     // adjust this number to move the divider 
 }
 
+@media (max-width: 1080px) {
+    .about-me-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about-me-text{
+        width: 100%;
+    }
+
+    .about-me-pic {
+        width: auto;
+    }
+}
+
