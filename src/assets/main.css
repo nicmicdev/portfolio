@@ -1,0 +1,32 @@
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #141d2f; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-secondary); 
+  }
+
+  .d-none {
+    display: none !important;
+  }
+
+/* global shrinking of font-size */
+
+@media (max-width: 650px) {
+    .section-heading {
+        font-size: 4.5rem
+    }
+}
