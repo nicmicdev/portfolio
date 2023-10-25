@@ -10,12 +10,12 @@
     <span class="subtext" style="padding-bottom: 70px;">Here you can see a sample of my work - please feel free to try out my projects. You can filter between my <i><b>personal projects</b></i> and <i><b>client work</b></i>. </span>
 
     <!-- TAB SELECTION -->
-    <div id="tab-selection">
-        <input onclick="showProjects()" id="toggle-projects" class="tab-select-switch-left" type="button" value="Projects"/>
-        <input onclick="showClient()" id="toggle-clients" class="tab-select-switch-right" type="button" value="Client Work"/>
+    <div id="tab-selection" >
+        <input onclick="showProjects()" id="show-projects" class="tab-select-switch-left" type="button" value="Projects"/>
+        <input onclick="showClient()" id="show-clients" class="tab-select-switch-right" type="button" value="Client Work"/>
     </div>
 
-    <div class="project">
+    <div class="project" id="join">
         <img class="project-img" src="assets/img/join.png" alt="">
 
         <div class="project-right-container">
@@ -32,7 +32,7 @@
 
     </div>
 
-    <div class="project flip-order">
+    <div class="project flip-order" id="epl">
 
         <img class="project-img" src="assets/img/epl.png" alt="">
 
@@ -50,7 +50,7 @@
 
     </div>
 
-    <div class="project" >
+    <div class="project" id="pokedex" >
         <img class="project-img" src="assets/img/pokedex.png" alt="">
 
         <div class="project-right-container">
@@ -67,7 +67,7 @@
 
     </div>
 
-    <div class="project flip-order">
+    <div class="project flip-order" id="portfolio">
 
         <img class="project-img" src="assets/img/portfolio.png" alt="">
 
@@ -86,7 +86,7 @@
     </div>
 
 
-    <div class="project">
+    <div class="project" id="irecu">
         <img class="project-img" src="assets/img/irecu.png" alt="">
 
         <div class="project-right-container">
@@ -95,7 +95,7 @@
             <p class="p-description">Custom landingpage for Kueppers Solutions based on clients wishes. Feel free to have a look at my work.</p>
 
             <div class="project-btns">
-                <a href="https://i-recu.de" target="_blank"><button class="live-test-btn">My work</button></a>
+                <a href="https://i-recu.de" target="_blank"><button class="live-test-btn">Live Test</button></a>
                 <a href="https://kueppers-solutions.de" target="_blank"><button class="github-btn">Company</button></a>
                 <a><button class="btn-tag">Client</button></a>
             </div>

@@ -1,12 +1,15 @@
 <header>
     <a class="name-link" href="#"><span class="name">N<span style="color: var(--color-secondary);">M</span></span></a>
 
-    <div class="links">
-        <a class="about-me" href="#about-me">About me</a>
-        <a class="skills" href="#skills">Skills</a>
-        <a class="portfolio" href="#projects">Portfolio</a>
-        <a href="#contact" class="header-contact">Contact</a>
+    <div id="nav-links" class="links">
+        <a onclick="hideMenu()" class="about-me hover-underline-animation" href="#about-me">About me</a>
+        <a onclick="hideMenu()" class="skills hover-underline-animation" href="#skills">Skills</a>
+        <a onclick="hideMenu()" class="portfolio hover-underline-animation" href="#projects">Portfolio</a>
+        <a onclick="hideMenu()" href="#contact" class="header-contact hover-underline-animation">Contact</a>
     </div>
+
+    <img onclick="showMenu()" id="menu-icn" class="menu-icn" src="assets/img/menu-icn.png" alt="mobile-menu-button" >
+    <img onclick="hideMenu()" id="close-icn" class="close-icn d-none" src="assets/img/close.png" alt="mobile-menu-button" >
 
 </header>
 
