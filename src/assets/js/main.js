@@ -5,6 +5,8 @@ function showMenu() {
     document.getElementById('menu-icn').classList.add('d-none');
     document.getElementById('close-icn').classList.remove('d-none');
 }
+
+
 //HIDE MOBILE MENU
 
 function hideMenu() {

@@ -162,3 +162,24 @@
 .hidden {
     visibility: hidden;
 }
+
+@media (max-width: 850px) {
+    .contact-content {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contact-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        text-align: center;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}

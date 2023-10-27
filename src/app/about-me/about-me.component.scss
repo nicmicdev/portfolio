@@ -74,5 +74,18 @@
     .about-me-pic {
         width: auto;
     }
+
+    .shadow-me {
+        height: 575px;
+    }
+
+    .img-me {
+        height: 325px;
+    }
 }
 
+@media (max-width: 650px) {
+    .section-heading {
+        font-size: 4.5rem;
+    }
+}
