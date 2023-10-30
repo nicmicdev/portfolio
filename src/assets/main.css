@@ -23,8 +23,7 @@
     display: none !important;
   }
 
-/* global shrinking of font-size */
-
+/* MOBILE */
 @media (max-width: 650px) {
     .section-heading {
         font-size: 4.5rem
