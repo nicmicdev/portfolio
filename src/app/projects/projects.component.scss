@@ -198,10 +198,25 @@
         display: flex;
         flex-direction: column;
     }
+
+    .project-img {
+        padding-top: 0px;
+    }
 }
 
 @media (max-width: 1080px) {
     .project-right-container {
         width: auto;
+    }
+
+    .projects-container {
+        padding-top: 0;
+    }
+}
+
+@media(max-width: 500px) {
+    
+    .project-img {
+        height: 200px;
     }
 }

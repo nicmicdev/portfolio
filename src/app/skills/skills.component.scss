@@ -69,7 +69,7 @@
     }
 
     .icn-row {
-        padding-top: 550px;
+        padding-top: 440px;
         width: 500px;
     }
 
@@ -79,5 +79,33 @@
 
     .skill img {
         margin: 0 32px;
+    }
+
+    .skills-container {
+        padding-top: 50px;
+    }
+
+    .skills-text-container {
+        width: auto;
+    }
+}
+
+@media (max-width:650px) {
+    .skills-text-container {
+        position: absolute;
+    }
+
+    .icn-row {
+        padding-top: 410px;
+    }
+}
+
+@media (max-width: 550px) {
+    .skill img {
+        height: 45px;
+    }
+
+    .icn-row {
+        width: 100vw;
     }
 }

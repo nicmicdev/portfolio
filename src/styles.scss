@@ -16,8 +16,19 @@ body {
 }
 
 :root {
+// --color-primary: #eb9c5c;
+// --color-secondary: #22ce6a;
 --color-primary: #4B47FF;
 --color-secondary: #00BEE8;
+}
+
+hr {
+    width: 100px;
+    margin-right: 12px;
+}
+
+#more {
+    display: none;
 }
 
 .section-heading {
@@ -27,8 +38,7 @@ body {
 }
 
 .section-spacing {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 0 100px;
 }
 
 app-about-me {
@@ -62,27 +72,55 @@ app-about-me {
     padding-bottom: 32px;
 }
 
+
+/* MOBILE */
+
+
+@media (max-width: 650px) {
+    .section-heading {
+        font-size: 4.5rem
+    }
+
+    .section-spacing {
+        padding: 0 32px;
+    }
+
+    .purple-line {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .section-heading {
+        font-size: 3rem !important;
+    }
+}
+
+
+
 // //SCROLLBAR
 
-// /* width */
+/* width */
 // ::-webkit-scrollbar {
 //     width: 7px;
-    
 //   }
   
 //   /* Track */
 //   ::-webkit-scrollbar-track {
-//     background: #141d2f;
-  
+//     background: #141d2f; 
 //   }
    
 //   /* Handle */
 //   ::-webkit-scrollbar-thumb {
-//     background: var(--color-secondary);
-//     border-radius: 22px;
+//     background: #888; 
+//     border-radius: 10px;
 //   }
   
 //   /* Handle on hover */
 //   ::-webkit-scrollbar-thumb:hover {
-//     background: #555; 
+//     background: var(--color-secondary); 
+//   }
+
+//   .d-none {
+//     display: none !important;
 //   }

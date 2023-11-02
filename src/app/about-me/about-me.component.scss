@@ -68,7 +68,7 @@
         flex-direction: column-reverse;
     }
     .about-me-text{
-        width: 100%;
+        width: 90vw;
     }
 
     .about-me-pic {
@@ -81,6 +81,10 @@
 
     .img-me {
         height: 325px;
+    }
+
+    .about-me-container {
+        padding-bottom: 0;
     }
 }
 
