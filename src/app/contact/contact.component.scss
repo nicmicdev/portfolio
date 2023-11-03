@@ -183,3 +183,16 @@
         width: 100%;
     }
 }
+
+@media (max-width: 650px) {
+    .contact-content {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 420px)  {
+    .contact-heading h2 {
+        font-size: 3rem;
+    }
+    
+}
